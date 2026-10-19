@@ -1,0 +1,41 @@
+{
+  "_note": "SYNTHETIC policy written for this PoC. Not taken from any real company.",
+  "params": {
+    "price_tolerance_pct": 2.0,
+    "qty_over_tolerance": 0,
+    "duplicate_window_days": 90,
+    "approval_limit_inr": 500000,
+    "gst_rate_registered": 0.18,
+    "gst_rate_unregistered": 0.0,
+    "amount_tolerance": 0.01
+  },
+  "clauses": [
+    {"id": "AP-0", "title": "Invoice completeness and arithmetic",
+     "text": "Invoices with missing mandatory fields, invalid dates, non-numeric lines or an arithmetic error between line items, tax and declared total are held and returned to the vendor for correction.",
+     "tags": ["incomplete", "missing", "mandatory", "arithmetic", "declared", "total", "invalid"]},
+    {"id": "AP-1", "title": "Purchase order required",
+     "text": "Every invoice must reference a valid purchase order and may only bill items that appear on that order. Invoices without a purchase order reference are held until the vendor supplies one.",
+     "tags": ["purchase", "order", "po", "reference", "item", "billed"]},
+    {"id": "AP-2", "title": "Unit price tolerance",
+     "text": "Invoice unit price may exceed the purchase order price by at most the price tolerance percentage. Prices above tolerance are held and the vendor must send a corrected invoice or credit note.",
+     "tags": ["unit", "price", "tolerance", "above", "variance"]},
+    {"id": "AP-3", "title": "Quantity limited to goods receipt",
+     "text": "Payment is limited to the quantity recorded on the goods receipt note. Quantity billed above quantity received is disputed and only the received portion is paid.",
+     "tags": ["quantity", "received", "billed", "exceeds", "partial", "goods", "receipt"]},
+    {"id": "AP-4", "title": "No goods receipt posted",
+     "text": "If no goods receipt note has been posted for the order, the invoice is held until the warehouse confirms delivery.",
+     "tags": ["no", "goods", "receipt", "note", "delivery", "posted", "warehouse"]},
+    {"id": "AP-5", "title": "Duplicate invoices",
+     "text": "An invoice with the same vendor and invoice number as one already processed is a duplicate and is rejected, regardless of formatting differences in the number.",
+     "tags": ["duplicate", "already", "processed", "resubmitted", "same", "number"]},
+    {"id": "AP-6", "title": "Vendor bank account change",
+     "text": "If the bank account on the invoice differs from the vendor master record, payment is blocked and the case is escalated to finance control for call-back verification of the new bank details.",
+     "tags": ["bank", "account", "differs", "master", "fraud", "escalate"]},
+    {"id": "AP-7", "title": "GST rate check",
+     "text": "GST-registered vendors must charge the standard GST rate and unregistered vendors must not charge GST. A tax rate that differs from the vendor registration status is held for correction.",
+     "tags": ["gst", "tax", "rate", "registered", "registration", "charged"]},
+    {"id": "AP-8", "title": "Approval limit",
+     "text": "Any payable amount above the approval limit requires finance manager sign-off and is escalated even when all matching checks pass.",
+     "tags": ["amount", "approval", "limit", "exceeds", "sign-off", "manager", "payable"]}
+  ]
+}

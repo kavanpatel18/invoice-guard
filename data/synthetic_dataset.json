@@ -1,0 +1,3669 @@
+{
+ "meta": {
+  "synthetic": true,
+  "seed": 42,
+  "note": "All records are synthetic; no real company data."
+ },
+ "vendors": {
+  "V001": {
+   "vendor_id": "V001",
+   "name": "Aarav Office Supplies",
+   "prefix": "AOS",
+   "gst_registered": true,
+   "bank_account": "SYN-770487",
+   "payment_terms_days": 15
+  },
+  "V002": {
+   "vendor_id": "V002",
+   "name": "Bluepeak IT Distribution",
+   "prefix": "BIT",
+   "gst_registered": true,
+   "bank_account": "SYN-126225",
+   "payment_terms_days": 45
+  },
+  "V003": {
+   "vendor_id": "V003",
+   "name": "Cedar Furnishings",
+   "prefix": "CED",
+   "gst_registered": true,
+   "bank_account": "SYN-388389",
+   "payment_terms_days": 15
+  },
+  "V004": {
+   "vendor_id": "V004",
+   "name": "Dhruv Networks",
+   "prefix": "DNW",
+   "gst_registered": true,
+   "bank_account": "SYN-334053",
+   "payment_terms_days": 15
+  },
+  "V005": {
+   "vendor_id": "V005",
+   "name": "Evergreen Software Resale",
+   "prefix": "EVG",
+   "gst_registered": true,
+   "bank_account": "SYN-872246",
+   "payment_terms_days": 15
+  },
+  "V006": {
+   "vendor_id": "V006",
+   "name": "Fathom Hardware",
+   "prefix": "FTH",
+   "gst_registered": true,
+   "bank_account": "SYN-809570",
+   "payment_terms_days": 45
+  },
+  "V007": {
+   "vendor_id": "V007",
+   "name": "Gulmohar Stationers (unregistered)",
+   "prefix": "GUL",
+   "gst_registered": false,
+   "bank_account": "SYN-671858",
+   "payment_terms_days": 15
+  },
+  "V008": {
+   "vendor_id": "V008",
+   "name": "Horizon Datacentre Gear",
+   "prefix": "HDG",
+   "gst_registered": true,
+   "bank_account": "SYN-719176",
+   "payment_terms_days": 30
+  }
+ },
+ "pos": {
+  "PO-1001": {
+   "po_id": "PO-1001",
+   "vendor_id": "V003",
+   "po_date": "2026-08-12",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 9,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 11,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1002": {
+   "po_id": "PO-1002",
+   "vendor_id": "V003",
+   "po_date": "2026-08-15",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 5,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1003": {
+   "po_id": "PO-1003",
+   "vendor_id": "V001",
+   "po_date": "2026-08-11",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 5,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 340,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1004": {
+   "po_id": "PO-1004",
+   "vendor_id": "V007",
+   "po_date": "2026-08-21",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 13,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 5,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1005": {
+   "po_id": "PO-1005",
+   "vendor_id": "V007",
+   "po_date": "2026-08-19",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 4,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 37,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1006": {
+   "po_id": "PO-1006",
+   "vendor_id": "V001",
+   "po_date": "2026-08-04",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 10,
+     "unit_price": 12500
+    }
+   ]
+  },
+  "PO-1007": {
+   "po_id": "PO-1007",
+   "vendor_id": "V002",
+   "po_date": "2026-08-13",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 5,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1008": {
+   "po_id": "PO-1008",
+   "vendor_id": "V002",
+   "po_date": "2026-08-18",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 8,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 6,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1010": {
+   "po_id": "PO-1010",
+   "vendor_id": "V006",
+   "po_date": "2026-08-06",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 4,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 59,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 3,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1011": {
+   "po_id": "PO-1011",
+   "vendor_id": "V004",
+   "po_date": "2026-08-02",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 1,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1012": {
+   "po_id": "PO-1012",
+   "vendor_id": "V002",
+   "po_date": "2026-08-18",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 35,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1013": {
+   "po_id": "PO-1013",
+   "vendor_id": "V007",
+   "po_date": "2026-08-07",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 2,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 82,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 26,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1014": {
+   "po_id": "PO-1014",
+   "vendor_id": "V004",
+   "po_date": "2026-08-19",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 86,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1015": {
+   "po_id": "PO-1015",
+   "vendor_id": "V002",
+   "po_date": "2026-08-02",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 171,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1016": {
+   "po_id": "PO-1016",
+   "vendor_id": "V004",
+   "po_date": "2026-08-18",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "desc": "Server rack",
+     "qty": 3,
+     "unit_price": 185000
+    }
+   ]
+  },
+  "PO-1017": {
+   "po_id": "PO-1017",
+   "vendor_id": "V008",
+   "po_date": "2026-08-08",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 1,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 11,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1018": {
+   "po_id": "PO-1018",
+   "vendor_id": "V007",
+   "po_date": "2026-08-14",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "desc": "Server rack",
+     "qty": 3,
+     "unit_price": 185000
+    }
+   ]
+  },
+  "PO-1019": {
+   "po_id": "PO-1019",
+   "vendor_id": "V002",
+   "po_date": "2026-08-02",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 17,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1020": {
+   "po_id": "PO-1020",
+   "vendor_id": "V003",
+   "po_date": "2026-08-14",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 9,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1022": {
+   "po_id": "PO-1022",
+   "vendor_id": "V004",
+   "po_date": "2026-08-13",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 29,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1023": {
+   "po_id": "PO-1023",
+   "vendor_id": "V005",
+   "po_date": "2026-08-15",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 4,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 2,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1024": {
+   "po_id": "PO-1024",
+   "vendor_id": "V001",
+   "po_date": "2026-08-19",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 1,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 75,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 11,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1025": {
+   "po_id": "PO-1025",
+   "vendor_id": "V001",
+   "po_date": "2026-08-17",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 9,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1026": {
+   "po_id": "PO-1026",
+   "vendor_id": "V004",
+   "po_date": "2026-08-13",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "desc": "Server rack",
+     "qty": 3,
+     "unit_price": 185000
+    }
+   ]
+  },
+  "PO-1027": {
+   "po_id": "PO-1027",
+   "vendor_id": "V001",
+   "po_date": "2026-08-20",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1028": {
+   "po_id": "PO-1028",
+   "vendor_id": "V006",
+   "po_date": "2026-08-08",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 34,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1029": {
+   "po_id": "PO-1029",
+   "vendor_id": "V001",
+   "po_date": "2026-08-15",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 9,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 5,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1030": {
+   "po_id": "PO-1030",
+   "vendor_id": "V003",
+   "po_date": "2026-08-15",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 9,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 185,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1032": {
+   "po_id": "PO-1032",
+   "vendor_id": "V008",
+   "po_date": "2026-08-09",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 374,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1034": {
+   "po_id": "PO-1034",
+   "vendor_id": "V007",
+   "po_date": "2026-08-18",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 88,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1035": {
+   "po_id": "PO-1035",
+   "vendor_id": "V006",
+   "po_date": "2026-08-19",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 5,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1036": {
+   "po_id": "PO-1036",
+   "vendor_id": "V007",
+   "po_date": "2026-08-20",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 16,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 18,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 1,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1037": {
+   "po_id": "PO-1037",
+   "vendor_id": "V007",
+   "po_date": "2026-08-08",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 29,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 69,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1038": {
+   "po_id": "PO-1038",
+   "vendor_id": "V008",
+   "po_date": "2026-08-12",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1039": {
+   "po_id": "PO-1039",
+   "vendor_id": "V005",
+   "po_date": "2026-08-12",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 1,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 1,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 6,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1040": {
+   "po_id": "PO-1040",
+   "vendor_id": "V005",
+   "po_date": "2026-08-02",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 4,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1041": {
+   "po_id": "PO-1041",
+   "vendor_id": "V002",
+   "po_date": "2026-08-13",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 32,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 2,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 316,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1042": {
+   "po_id": "PO-1042",
+   "vendor_id": "V006",
+   "po_date": "2026-08-14",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 15,
+     "unit_price": 12500
+    }
+   ]
+  },
+  "PO-1043": {
+   "po_id": "PO-1043",
+   "vendor_id": "V002",
+   "po_date": "2026-08-10",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 31,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1044": {
+   "po_id": "PO-1044",
+   "vendor_id": "V003",
+   "po_date": "2026-08-20",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 6,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 157,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1045": {
+   "po_id": "PO-1045",
+   "vendor_id": "V006",
+   "po_date": "2026-08-15",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 4,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 15,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1046": {
+   "po_id": "PO-1046",
+   "vendor_id": "V005",
+   "po_date": "2026-08-17",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 7,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 2,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 12,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1047": {
+   "po_id": "PO-1047",
+   "vendor_id": "V004",
+   "po_date": "2026-08-05",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 175,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1048": {
+   "po_id": "PO-1048",
+   "vendor_id": "V008",
+   "po_date": "2026-08-14",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 4,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 30,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 2,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1049": {
+   "po_id": "PO-1049",
+   "vendor_id": "V001",
+   "po_date": "2026-08-04",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 2,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1050": {
+   "po_id": "PO-1050",
+   "vendor_id": "V008",
+   "po_date": "2026-08-17",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 13,
+     "unit_price": 12500
+    }
+   ]
+  },
+  "PO-1051": {
+   "po_id": "PO-1051",
+   "vendor_id": "V004",
+   "po_date": "2026-08-09",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 170,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 6,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1052": {
+   "po_id": "PO-1052",
+   "vendor_id": "V002",
+   "po_date": "2026-08-05",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 29,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1053": {
+   "po_id": "PO-1053",
+   "vendor_id": "V007",
+   "po_date": "2026-08-14",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 4,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 1,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1054": {
+   "po_id": "PO-1054",
+   "vendor_id": "V001",
+   "po_date": "2026-08-19",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 202,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1055": {
+   "po_id": "PO-1055",
+   "vendor_id": "V004",
+   "po_date": "2026-08-16",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 8,
+     "unit_price": 9800
+    }
+   ]
+  },
+  "PO-1056": {
+   "po_id": "PO-1056",
+   "vendor_id": "V007",
+   "po_date": "2026-08-11",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "desc": "Software licence (annual)",
+     "qty": 18,
+     "unit_price": 12500
+    }
+   ]
+  },
+  "PO-1057": {
+   "po_id": "PO-1057",
+   "vendor_id": "V005",
+   "po_date": "2026-08-13",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 25,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1058": {
+   "po_id": "PO-1058",
+   "vendor_id": "V005",
+   "po_date": "2026-08-03",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 76,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1059": {
+   "po_id": "PO-1059",
+   "vendor_id": "V001",
+   "po_date": "2026-08-01",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "desc": "Toner cartridge",
+     "qty": 6,
+     "unit_price": 4200
+    }
+   ]
+  },
+  "PO-1060": {
+   "po_id": "PO-1060",
+   "vendor_id": "V004",
+   "po_date": "2026-08-05",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 5,
+     "unit_price": 21500
+    }
+   ]
+  },
+  "PO-1061": {
+   "po_id": "PO-1061",
+   "vendor_id": "V005",
+   "po_date": "2026-08-04",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 253,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 13,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "desc": "Laptop 14in",
+     "qty": 2,
+     "unit_price": 58000
+    }
+   ]
+  },
+  "PO-1062": {
+   "po_id": "PO-1062",
+   "vendor_id": "V004",
+   "po_date": "2026-08-04",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "desc": "Ergonomic chair",
+     "qty": 14,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 5,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "desc": "A4 paper ream",
+     "qty": 71,
+     "unit_price": 320
+    }
+   ]
+  },
+  "PO-1063": {
+   "po_id": "PO-1063",
+   "vendor_id": "V007",
+   "po_date": "2026-08-12",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "desc": "24-port network switch",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ]
+  }
+ },
+ "grns": {
+  "PO-1001": {
+   "grn_id": "GRN-1001",
+   "po_id": "PO-1001",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 9
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 11
+    }
+   ]
+  },
+  "PO-1002": {
+   "grn_id": "GRN-1002",
+   "po_id": "PO-1002",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 5
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1003": {
+   "grn_id": "GRN-1003",
+   "po_id": "PO-1003",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 3
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 340
+    }
+   ]
+  },
+  "PO-1004": {
+   "grn_id": "GRN-1004",
+   "po_id": "PO-1004",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 13
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 5
+    }
+   ]
+  },
+  "PO-1005": {
+   "grn_id": "GRN-1005",
+   "po_id": "PO-1005",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 37
+    }
+   ]
+  },
+  "PO-1006": {
+   "grn_id": "GRN-1006",
+   "po_id": "PO-1006",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty_received": 10
+    }
+   ]
+  },
+  "PO-1007": {
+   "grn_id": "GRN-1007",
+   "po_id": "PO-1007",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 5
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1008": {
+   "grn_id": "GRN-1008",
+   "po_id": "PO-1008",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 6
+    }
+   ]
+  },
+  "PO-1010": {
+   "grn_id": "GRN-1010",
+   "po_id": "PO-1010",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 59
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1012": {
+   "grn_id": "GRN-1012",
+   "po_id": "PO-1012",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 35
+    }
+   ]
+  },
+  "PO-1013": {
+   "grn_id": "GRN-1013",
+   "po_id": "PO-1013",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 2
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 82
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 26
+    }
+   ]
+  },
+  "PO-1014": {
+   "grn_id": "GRN-1014",
+   "po_id": "PO-1014",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 86
+    }
+   ]
+  },
+  "PO-1015": {
+   "grn_id": "GRN-1015",
+   "po_id": "PO-1015",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 171
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1016": {
+   "grn_id": "GRN-1016",
+   "po_id": "PO-1016",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1017": {
+   "grn_id": "GRN-1017",
+   "po_id": "PO-1017",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 1
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 8
+    }
+   ]
+  },
+  "PO-1018": {
+   "grn_id": "GRN-1018",
+   "po_id": "PO-1018",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1019": {
+   "grn_id": "GRN-1019",
+   "po_id": "PO-1019",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 9
+    }
+   ]
+  },
+  "PO-1020": {
+   "grn_id": "GRN-1020",
+   "po_id": "PO-1020",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 9
+    }
+   ]
+  },
+  "PO-1022": {
+   "grn_id": "GRN-1022",
+   "po_id": "PO-1022",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 29
+    }
+   ]
+  },
+  "PO-1023": {
+   "grn_id": "GRN-1023",
+   "po_id": "PO-1023",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 2
+    }
+   ]
+  },
+  "PO-1024": {
+   "grn_id": "GRN-1024",
+   "po_id": "PO-1024",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 1
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 75
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 11
+    }
+   ]
+  },
+  "PO-1025": {
+   "grn_id": "GRN-1025",
+   "po_id": "PO-1025",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 9
+    }
+   ]
+  },
+  "PO-1026": {
+   "grn_id": "GRN-1026",
+   "po_id": "PO-1026",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1027": {
+   "grn_id": "GRN-1027",
+   "po_id": "PO-1027",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1028": {
+   "grn_id": "GRN-1028",
+   "po_id": "PO-1028",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 34
+    }
+   ]
+  },
+  "PO-1029": {
+   "grn_id": "GRN-1029",
+   "po_id": "PO-1029",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 9
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 5
+    }
+   ]
+  },
+  "PO-1030": {
+   "grn_id": "GRN-1030",
+   "po_id": "PO-1030",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty_received": 9
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 185
+    }
+   ]
+  },
+  "PO-1032": {
+   "grn_id": "GRN-1032",
+   "po_id": "PO-1032",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 374
+    }
+   ]
+  },
+  "PO-1034": {
+   "grn_id": "GRN-1034",
+   "po_id": "PO-1034",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 88
+    }
+   ]
+  },
+  "PO-1035": {
+   "grn_id": "GRN-1035",
+   "po_id": "PO-1035",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 4
+    }
+   ]
+  },
+  "PO-1036": {
+   "grn_id": "GRN-1036",
+   "po_id": "PO-1036",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 16
+    },
+    {
+     "sku": "SKU-LICENSE",
+     "qty_received": 18
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 1
+    }
+   ]
+  },
+  "PO-1037": {
+   "grn_id": "GRN-1037",
+   "po_id": "PO-1037",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 29
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 69
+    }
+   ]
+  },
+  "PO-1038": {
+   "grn_id": "GRN-1038",
+   "po_id": "PO-1038",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1039": {
+   "grn_id": "GRN-1039",
+   "po_id": "PO-1039",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 1
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 1
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 6
+    }
+   ]
+  },
+  "PO-1040": {
+   "grn_id": "GRN-1040",
+   "po_id": "PO-1040",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 4
+    }
+   ]
+  },
+  "PO-1041": {
+   "grn_id": "GRN-1041",
+   "po_id": "PO-1041",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 32
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 2
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 316
+    }
+   ]
+  },
+  "PO-1042": {
+   "grn_id": "GRN-1042",
+   "po_id": "PO-1042",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty_received": 15
+    }
+   ]
+  },
+  "PO-1043": {
+   "grn_id": "GRN-1043",
+   "po_id": "PO-1043",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 31
+    }
+   ]
+  },
+  "PO-1044": {
+   "grn_id": "GRN-1044",
+   "po_id": "PO-1044",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 6
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 157
+    }
+   ]
+  },
+  "PO-1045": {
+   "grn_id": "GRN-1045",
+   "po_id": "PO-1045",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 15
+    }
+   ]
+  },
+  "PO-1047": {
+   "grn_id": "GRN-1047",
+   "po_id": "PO-1047",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 165
+    }
+   ]
+  },
+  "PO-1048": {
+   "grn_id": "GRN-1048",
+   "po_id": "PO-1048",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 30
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 2
+    }
+   ]
+  },
+  "PO-1049": {
+   "grn_id": "GRN-1049",
+   "po_id": "PO-1049",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 2
+    }
+   ]
+  },
+  "PO-1051": {
+   "grn_id": "GRN-1051",
+   "po_id": "PO-1051",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 170
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 6
+    }
+   ]
+  },
+  "PO-1052": {
+   "grn_id": "GRN-1052",
+   "po_id": "PO-1052",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 29
+    }
+   ]
+  },
+  "PO-1053": {
+   "grn_id": "GRN-1053",
+   "po_id": "PO-1053",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 4
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 1
+    }
+   ]
+  },
+  "PO-1054": {
+   "grn_id": "GRN-1054",
+   "po_id": "PO-1054",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 202
+    }
+   ]
+  },
+  "PO-1056": {
+   "grn_id": "GRN-1056",
+   "po_id": "PO-1056",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty_received": 15
+    }
+   ]
+  },
+  "PO-1057": {
+   "grn_id": "GRN-1057",
+   "po_id": "PO-1057",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 25
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1058": {
+   "grn_id": "GRN-1058",
+   "po_id": "PO-1058",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 71
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 3
+    }
+   ]
+  },
+  "PO-1059": {
+   "grn_id": "GRN-1059",
+   "po_id": "PO-1059",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty_received": 6
+    }
+   ]
+  },
+  "PO-1060": {
+   "grn_id": "GRN-1060",
+   "po_id": "PO-1060",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 5
+    }
+   ]
+  },
+  "PO-1061": {
+   "grn_id": "GRN-1061",
+   "po_id": "PO-1061",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 253
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 13
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty_received": 2
+    }
+   ]
+  },
+  "PO-1062": {
+   "grn_id": "GRN-1062",
+   "po_id": "PO-1062",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty_received": 14
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 5
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty_received": 71
+    }
+   ]
+  },
+  "PO-1063": {
+   "grn_id": "GRN-1063",
+   "po_id": "PO-1063",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty_received": 3
+    }
+   ]
+  }
+ },
+ "history": [
+  {
+   "invoice_id": "HIST-012",
+   "vendor_id": "V002",
+   "invoice_no": "bit 82063",
+   "invoice_date": "2026-08-12",
+   "total": 173460.0,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-020",
+   "vendor_id": "V003",
+   "invoice_no": "ced 42742",
+   "invoice_date": "2026-07-17",
+   "total": 115630.45,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-023",
+   "vendor_id": "V005",
+   "invoice_no": "evg 34890",
+   "invoice_date": "2026-08-16",
+   "total": 324500.0,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-037",
+   "vendor_id": "V007",
+   "invoice_no": "gul 71694",
+   "invoice_date": "2026-08-08",
+   "total": 143880.0,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-052",
+   "vendor_id": "V002",
+   "invoice_no": "bit 30028",
+   "invoice_date": "2026-08-12",
+   "total": 143724.0,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-057",
+   "vendor_id": "V005",
+   "invoice_no": "evg 59692",
+   "invoice_date": "2026-07-31",
+   "total": 329220.0,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F00",
+   "vendor_id": "V008",
+   "invoice_no": "HDG-2729",
+   "invoice_date": "2026-07-28",
+   "total": 86549.31,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F01",
+   "vendor_id": "V008",
+   "invoice_no": "HDG-3506",
+   "invoice_date": "2026-07-28",
+   "total": 17500.05,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F02",
+   "vendor_id": "V005",
+   "invoice_no": "EVG-9817",
+   "invoice_date": "2026-07-31",
+   "total": 42908.89,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F03",
+   "vendor_id": "V005",
+   "invoice_no": "EVG-6280",
+   "invoice_date": "2026-07-16",
+   "total": 75104.33,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F04",
+   "vendor_id": "V002",
+   "invoice_no": "BIT-5569",
+   "invoice_date": "2026-07-29",
+   "total": 23459.98,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F05",
+   "vendor_id": "V008",
+   "invoice_no": "HDG-7209",
+   "invoice_date": "2026-07-22",
+   "total": 4525.6,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F06",
+   "vendor_id": "V006",
+   "invoice_no": "FTH-3979",
+   "invoice_date": "2026-08-01",
+   "total": 20666.55,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F07",
+   "vendor_id": "V005",
+   "invoice_no": "EVG-6576",
+   "invoice_date": "2026-07-18",
+   "total": 79468.16,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F08",
+   "vendor_id": "V005",
+   "invoice_no": "EVG-1166",
+   "invoice_date": "2026-08-03",
+   "total": 85429.51,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F09",
+   "vendor_id": "V002",
+   "invoice_no": "BIT-4954",
+   "invoice_date": "2026-07-27",
+   "total": 44994.85,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F10",
+   "vendor_id": "V004",
+   "invoice_no": "DNW-8800",
+   "invoice_date": "2026-08-01",
+   "total": 41439.36,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F11",
+   "vendor_id": "V001",
+   "invoice_no": "AOS-2524",
+   "invoice_date": "2026-07-19",
+   "total": 21500.48,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F12",
+   "vendor_id": "V004",
+   "invoice_no": "DNW-6016",
+   "invoice_date": "2026-08-07",
+   "total": 34473.8,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F13",
+   "vendor_id": "V006",
+   "invoice_no": "FTH-7971",
+   "invoice_date": "2026-08-05",
+   "total": 31109.63,
+   "status": "PAID (synthetic)"
+  },
+  {
+   "invoice_id": "HIST-F14",
+   "vendor_id": "V008",
+   "invoice_no": "HDG-5438",
+   "invoice_date": "2026-07-20",
+   "total": 24123.52,
+   "status": "PAID (synthetic)"
+  }
+ ],
+ "invoices": [
+  {
+   "invoice_id": "INV-001",
+   "invoice_no": "CED-93227",
+   "vendor_id": "V003",
+   "po_id": "PO-1001",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 9,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 11,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.12,
+   "bank_account": "SYN-388389",
+   "declared_total": 163072.0
+  },
+  {
+   "invoice_id": "INV-002",
+   "invoice_no": "CED-17331",
+   "vendor_id": "V003",
+   "po_id": "PO-1002",
+   "invoice_date": "2026-09-01",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 5,
+     "unit_price": 9898.0
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-388389",
+   "declared_total": 134508.2
+  },
+  {
+   "invoice_id": "INV-003",
+   "invoice_no": "AOS-51245",
+   "vendor_id": "V001",
+   "po_id": "PO-1003",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 5,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 340,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 186204.0
+  },
+  {
+   "invoice_id": "INV-004",
+   "invoice_no": "GUL-83579",
+   "vendor_id": "V007",
+   "po_id": "PO-1004",
+   "invoice_date": "2026-09-17",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 13,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 5,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-375504",
+   "declared_total": 103600.0
+  },
+  {
+   "invoice_id": "INV-005",
+   "invoice_no": "GUL-74686",
+   "vendor_id": "V007",
+   "po_id": "PO-1005",
+   "invoice_date": "2026-08-31",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 4,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 37,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-671858",
+   "declared_total": 194600.0
+  },
+  {
+   "invoice_id": "INV-006",
+   "invoice_no": "AOS-99192",
+   "vendor_id": "V001",
+   "po_id": "PO-1006",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 10,
+     "unit_price": 12625.0
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 148975.0
+  },
+  {
+   "invoice_id": "INV-007",
+   "invoice_no": "BIT-82512",
+   "vendor_id": "V002",
+   "po_id": "PO-1007",
+   "invoice_date": "2026-08-23",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 5,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 332170.0
+  },
+  {
+   "invoice_id": "INV-008",
+   "invoice_no": "BIT-66985",
+   "vendor_id": "V002",
+   "po_id": "PO-1008",
+   "invoice_date": "2026-09-02",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 8,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 6,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 187384.0
+  },
+  {
+   "invoice_id": "INV-009",
+   "invoice_no": "AOS-36071",
+   "vendor_id": "V001",
+   "po_id": null,
+   "invoice_date": "2026-08-23",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 24,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 5,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 361,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 382107.6
+  },
+  {
+   "invoice_id": "INV-010",
+   "invoice_no": "FTH-57576",
+   "vendor_id": "V006",
+   "po_id": "PO-1010",
+   "invoice_date": "2026-08-25",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 4,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 59,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 3,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-809570",
+   "declared_total": 158450.4
+  },
+  {
+   "invoice_id": "INV-011",
+   "invoice_no": "DNW-21226",
+   "vendor_id": "V004",
+   "po_id": "PO-1011",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 1,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 25370.0
+  },
+  {
+   "invoice_id": "INV-012",
+   "invoice_no": "BIT-82063",
+   "vendor_id": "V002",
+   "po_id": "PO-1012",
+   "invoice_date": "2026-09-02",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 35,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 173460.0
+  },
+  {
+   "invoice_id": "INV-013",
+   "invoice_no": "GUL-12757",
+   "vendor_id": "V007",
+   "po_id": "PO-1013",
+   "invoice_date": "2026-09-04",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 2,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 82,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 26,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-680828",
+   "declared_total": 251440.0
+  },
+  {
+   "invoice_id": "INV-014",
+   "invoice_no": "DNW-92719",
+   "vendor_id": "V004",
+   "po_id": "PO-1014",
+   "invoice_date": "2026-08-30",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 86,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.12,
+   "bank_account": "SYN-334053",
+   "declared_total": 30822.4
+  },
+  {
+   "invoice_id": "INV-015",
+   "invoice_no": "BIT-97684",
+   "vendor_id": "V002",
+   "po_id": "PO-1015",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 171,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 140679.6
+  },
+  {
+   "invoice_id": "INV-016",
+   "invoice_no": "DNW-84847",
+   "vendor_id": "V004",
+   "po_id": "PO-1016",
+   "invoice_date": "2026-09-15",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "qty": 3,
+     "unit_price": 185000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 654900.0
+  },
+  {
+   "invoice_id": "INV-017",
+   "invoice_no": "HDG-96374",
+   "vendor_id": "V008",
+   "po_id": "PO-1017",
+   "invoice_date": "2026-08-31",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 1,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 11,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-719176",
+   "declared_total": 122956.0
+  },
+  {
+   "invoice_id": "INV-018",
+   "invoice_no": "GUL-17100",
+   "vendor_id": "V007",
+   "po_id": "PO-1018",
+   "invoice_date": "2026-09-13",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "qty": 3,
+     "unit_price": 185000
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-671858",
+   "declared_total": 555000.0
+  },
+  {
+   "invoice_id": "INV-019",
+   "invoice_no": "BIT-34931",
+   "vendor_id": "V002",
+   "po_id": "PO-1019",
+   "invoice_date": "2026-08-29",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 17,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 84252.0
+  },
+  {
+   "invoice_id": "INV-020",
+   "invoice_no": "CED-42742",
+   "vendor_id": "V003",
+   "po_id": "PO-1020",
+   "invoice_date": "2026-08-26",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 9,
+     "unit_price": 10887.99
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-388389",
+   "declared_total": 115630.45
+  },
+  {
+   "invoice_id": "INV-021",
+   "invoice_no": "BIT-73653",
+   "vendor_id": "V002",
+   "po_id": null,
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 2,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 135,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 18,
+     "unit_price": 12500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 367216.0
+  },
+  {
+   "invoice_id": "INV-022",
+   "invoice_no": "DNW-10282",
+   "vendor_id": "V004",
+   "po_id": "PO-1022",
+   "invoice_date": "2026-09-04",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 29,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 143724.0
+  },
+  {
+   "invoice_id": "INV-023",
+   "invoice_no": "EVG-34890",
+   "vendor_id": "V005",
+   "po_id": "PO-1023",
+   "invoice_date": "2026-09-03",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 4,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 2,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-872246",
+   "declared_total": 324500.0
+  },
+  {
+   "invoice_id": "INV-024",
+   "invoice_no": "AOS-72493",
+   "vendor_id": "V001",
+   "po_id": "PO-1024",
+   "invoice_date": "2026-09-14",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 1,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 75,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 11,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.12,
+   "bank_account": "SYN-770487",
+   "declared_total": 171696.0
+  },
+  {
+   "invoice_id": "INV-025",
+   "invoice_no": "AOS-87992",
+   "vendor_id": "V001",
+   "po_id": "PO-1025",
+   "invoice_date": "2026-08-29",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 9,
+     "unit_price": 4734.51
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 50280.5
+  },
+  {
+   "invoice_id": "INV-026",
+   "invoice_no": "DNW-84668",
+   "vendor_id": "V004",
+   "po_id": "PO-1026",
+   "invoice_date": "2026-08-30",
+   "lines": [
+    {
+     "sku": "SKU-RACK",
+     "qty": 3,
+     "unit_price": 185000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 654900.0
+  },
+  {
+   "invoice_id": "INV-027",
+   "invoice_no": "AOS-44179",
+   "vendor_id": "V001",
+   "po_id": "PO-1027",
+   "invoice_date": "2026-09-05",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 65359.09
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 231371.18
+  },
+  {
+   "invoice_id": "INV-028",
+   "invoice_no": "FTH-51441",
+   "vendor_id": "V006",
+   "po_id": "PO-1028",
+   "invoice_date": "2026-08-20",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 34,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-809570",
+   "declared_total": 373824.0
+  },
+  {
+   "invoice_id": "INV-029",
+   "invoice_no": "AOS-58434",
+   "vendor_id": "V001",
+   "po_id": "PO-1029",
+   "invoice_date": "2026-09-03",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 9,
+     "unit_price": 4242.0
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 5,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 102870.04
+  },
+  {
+   "invoice_id": "INV-030",
+   "invoice_no": "CED-25129",
+   "vendor_id": "V003",
+   "po_id": "PO-1030",
+   "invoice_date": "2026-08-28",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 9,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 185,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-388389",
+   "declared_total": 202606.0
+  },
+  {
+   "invoice_id": "INV-031",
+   "invoice_no": "CED-93130",
+   "vendor_id": "V003",
+   "po_id": null,
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 3,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 18,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-388389",
+   "declared_total": 165318.0
+  },
+  {
+   "invoice_id": "INV-032",
+   "invoice_no": "HDG-65518",
+   "vendor_id": "V008",
+   "po_id": "PO-1032",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 374,
+     "unit_price": 323.2
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-719176",
+   "declared_total": 142634.62
+  },
+  {
+   "invoice_id": "INV-033",
+   "invoice_no": "AOS-67912",
+   "vendor_id": "V001",
+   "po_id": null,
+   "invoice_date": "2026-08-28",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 15,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 13,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 224672.0
+  },
+  {
+   "invoice_id": "INV-034",
+   "invoice_no": "GUL-29536",
+   "vendor_id": "V007",
+   "po_id": "PO-1034",
+   "invoice_date": "2026-09-14",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 88,
+     "unit_price": 346.41
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-671858",
+   "declared_total": 30484.08
+  },
+  {
+   "invoice_id": "INV-035",
+   "invoice_no": "FTH-99399",
+   "vendor_id": "V006",
+   "po_id": "PO-1035",
+   "invoice_date": "2026-09-05",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 5,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-470858",
+   "declared_total": 57820.0
+  },
+  {
+   "invoice_id": "INV-036",
+   "invoice_no": "GUL-33509",
+   "vendor_id": "V007",
+   "po_id": "PO-1036",
+   "invoice_date": "2026-09-09",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 16,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 18,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 1,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-671858",
+   "declared_total": 313700.0
+  },
+  {
+   "invoice_id": "INV-037",
+   "invoice_no": "GUL-71694",
+   "vendor_id": "V007",
+   "po_id": "PO-1037",
+   "invoice_date": "2026-08-25",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 29,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 69,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-671858",
+   "declared_total": 143880.0
+  },
+  {
+   "invoice_id": "INV-038",
+   "invoice_no": "HDG-46517",
+   "vendor_id": "V008",
+   "po_id": "PO-1038",
+   "invoice_date": "2026-08-24",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-719176",
+   "declared_total": 215586.0
+  },
+  {
+   "invoice_id": "INV-039",
+   "invoice_no": "EVG-33405",
+   "vendor_id": "V005",
+   "po_id": "PO-1039",
+   "invoice_date": "2026-09-09",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 1,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 1,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 6,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-872246",
+   "declared_total": 163194.0
+  },
+  {
+   "invoice_id": "INV-040",
+   "invoice_no": "EVG-55309",
+   "vendor_id": "V005",
+   "po_id": "PO-1040",
+   "invoice_date": "2026-08-22",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 4,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.05,
+   "bank_account": "SYN-872246",
+   "declared_total": 90300.0
+  },
+  {
+   "invoice_id": "INV-041",
+   "invoice_no": "BIT-80575",
+   "vendor_id": "V002",
+   "po_id": "PO-1041",
+   "invoice_date": "2026-08-29",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 32,
+     "unit_price": 4242.0
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 2,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 316,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 302627.52
+  },
+  {
+   "invoice_id": "INV-042",
+   "invoice_no": "FTH-91678",
+   "vendor_id": "V006",
+   "po_id": "PO-1042",
+   "invoice_date": "2026-09-03",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 15,
+     "unit_price": 14080.46
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-809570",
+   "declared_total": 249224.14
+  },
+  {
+   "invoice_id": "INV-043",
+   "invoice_no": "BIT-97153",
+   "vendor_id": "V002",
+   "po_id": "PO-1043",
+   "invoice_date": "2026-09-01",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 31,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 153636.0
+  },
+  {
+   "invoice_id": "INV-044",
+   "invoice_no": "CED-66346",
+   "vendor_id": "V003",
+   "po_id": "PO-1044",
+   "invoice_date": "2026-09-17",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 6,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 157,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-388389",
+   "declared_total": 333987.2
+  },
+  {
+   "invoice_id": "INV-045",
+   "invoice_no": "FTH-96356",
+   "vendor_id": "V006",
+   "po_id": "PO-1045",
+   "invoice_date": "2026-08-27",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 4,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 15,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-809570",
+   "declared_total": 348100.0
+  },
+  {
+   "invoice_id": "INV-046",
+   "invoice_no": "EVG-50687",
+   "vendor_id": "V005",
+   "po_id": "PO-1046",
+   "invoice_date": "2026-09-03",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 7,
+     "unit_price": 12500
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 2,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 12,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-872246",
+   "declared_total": 292758.0
+  },
+  {
+   "invoice_id": "INV-047",
+   "invoice_no": "DNW-72277",
+   "vendor_id": "V004",
+   "po_id": "PO-1047",
+   "invoice_date": "2026-09-03",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 175,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 66080.0
+  },
+  {
+   "invoice_id": "INV-048",
+   "invoice_no": "HDG-29342",
+   "vendor_id": "V008",
+   "po_id": "PO-1048",
+   "invoice_date": "2026-09-13",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 4,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-TONER",
+     "qty": 30,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 2,
+     "unit_price": 58000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-719176",
+   "declared_total": 406392.0
+  },
+  {
+   "invoice_id": "INV-049",
+   "invoice_no": "AOS-25906",
+   "vendor_id": "V001",
+   "po_id": "PO-1049",
+   "invoice_date": "2026-08-28",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 2,
+     "unit_price": 23420.68
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 55272.8
+  },
+  {
+   "invoice_id": "INV-050",
+   "invoice_no": "HDG-78327",
+   "vendor_id": "V008",
+   "po_id": "PO-1050",
+   "invoice_date": "2026-09-11",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 13,
+     "unit_price": 12500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-719176",
+   "declared_total": 191750.0
+  },
+  {
+   "invoice_id": "INV-051",
+   "invoice_no": "DNW-54020",
+   "vendor_id": "V004",
+   "po_id": "PO-1051",
+   "invoice_date": "2026-08-29",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 170,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 6,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-666390",
+   "declared_total": 133576.0
+  },
+  {
+   "invoice_id": "INV-052",
+   "invoice_no": "BIT-30028",
+   "vendor_id": "V002",
+   "po_id": "PO-1052",
+   "invoice_date": "2026-08-21",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 29,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-126225",
+   "declared_total": 143724.0
+  },
+  {
+   "invoice_id": "INV-053",
+   "invoice_no": "GUL-37110",
+   "vendor_id": "V007",
+   "po_id": "PO-1053",
+   "invoice_date": "2026-09-06",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 4,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 1,
+     "unit_price": 58000
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-508396",
+   "declared_total": 144000.0
+  },
+  {
+   "invoice_id": "INV-054",
+   "invoice_no": "AOS-61116",
+   "vendor_id": "V001",
+   "po_id": "PO-1054",
+   "invoice_date": "2026-09-11",
+   "lines": [
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 58000
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 202,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 281595.2
+  },
+  {
+   "invoice_id": "INV-055",
+   "invoice_no": "DNW-73654",
+   "vendor_id": "V004",
+   "po_id": "PO-1055",
+   "invoice_date": "2026-08-26",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 8,
+     "unit_price": 9800
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 92512.0
+  },
+  {
+   "invoice_id": "INV-056",
+   "invoice_no": "GUL-27786",
+   "vendor_id": "V007",
+   "po_id": "PO-1056",
+   "invoice_date": "2026-09-04",
+   "lines": [
+    {
+     "sku": "SKU-LICENSE",
+     "qty": 18,
+     "unit_price": 12500
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-152727",
+   "declared_total": 225000.0
+  },
+  {
+   "invoice_id": "INV-057",
+   "invoice_no": "EVG-59692",
+   "vendor_id": "V005",
+   "po_id": "PO-1057",
+   "invoice_date": "2026-08-31",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 25,
+     "unit_price": 4200
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 3,
+     "unit_price": 58000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-872246",
+   "declared_total": 329220.0
+  },
+  {
+   "invoice_id": "INV-058",
+   "invoice_no": "EVG-39389",
+   "vendor_id": "V005",
+   "po_id": "PO-1058",
+   "invoice_date": "2026-09-02",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 76,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-872246",
+   "declared_total": 104807.6
+  },
+  {
+   "invoice_id": "INV-059",
+   "invoice_no": "AOS-91439",
+   "vendor_id": "V001",
+   "po_id": "PO-1059",
+   "invoice_date": "2026-08-15",
+   "lines": [
+    {
+     "sku": "SKU-TONER",
+     "qty": 6,
+     "unit_price": 4200
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-770487",
+   "declared_total": 29736.0
+  },
+  {
+   "invoice_id": "INV-060",
+   "invoice_no": "DNW-25012",
+   "vendor_id": "V004",
+   "po_id": "PO-1060",
+   "invoice_date": "2026-08-20",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 5,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 126850.0
+  },
+  {
+   "invoice_id": "INV-061",
+   "invoice_no": "EVG-19961",
+   "vendor_id": "V005",
+   "po_id": "PO-1061",
+   "invoice_date": "2026-09-01",
+   "lines": [
+    {
+     "sku": "SKU-PAPER",
+     "qty": 253,
+     "unit_price": 320
+    },
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 13,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-LAPTOP",
+     "qty": 2,
+     "unit_price": 58000
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-872246",
+   "declared_total": 382744.8
+  },
+  {
+   "invoice_id": "INV-062",
+   "invoice_no": "DNW-55508",
+   "vendor_id": "V004",
+   "po_id": "PO-1062",
+   "invoice_date": "2026-08-31",
+   "lines": [
+    {
+     "sku": "SKU-CHAIR",
+     "qty": 14,
+     "unit_price": 9800
+    },
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 5,
+     "unit_price": 21500
+    },
+    {
+     "sku": "SKU-PAPER",
+     "qty": 71,
+     "unit_price": 320
+    }
+   ],
+   "tax_rate": 0.18,
+   "bank_account": "SYN-334053",
+   "declared_total": 315555.6
+  },
+  {
+   "invoice_id": "INV-063",
+   "invoice_no": "GUL-11658",
+   "vendor_id": "V007",
+   "po_id": "PO-1063",
+   "invoice_date": "2026-09-04",
+   "lines": [
+    {
+     "sku": "SKU-SWITCH",
+     "qty": 3,
+     "unit_price": 21500
+    }
+   ],
+   "tax_rate": 0.0,
+   "bank_account": "SYN-671858",
+   "declared_total": 64500.0
+  }
+ ],
+ "ground_truth": {
+  "INV-001": {
+   "anomaly": "TAX_MISMATCH",
+   "label": "Wrong GST rate",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-002": {
+   "anomaly": "PRICE_TOL",
+   "label": "Price +1% (within tolerance)",
+   "expected_decision": "APPROVE",
+   "expected_payable": 134508.2
+  },
+  "INV-003": {
+   "anomaly": "QTY_OVER",
+   "label": "Billed more than received",
+   "expected_decision": "PAY_PARTIAL",
+   "expected_payable": 163076.0
+  },
+  "INV-004": {
+   "anomaly": "BANK_CHANGE",
+   "label": "Bank account changed",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-005": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 194600.0
+  },
+  "INV-006": {
+   "anomaly": "PRICE_TOL",
+   "label": "Price +1% (within tolerance)",
+   "expected_decision": "APPROVE",
+   "expected_payable": 148975.0
+  },
+  "INV-007": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 332170.0
+  },
+  "INV-008": {
+   "anomaly": "QTY_OVER",
+   "label": "Billed more than received",
+   "expected_decision": "PAY_PARTIAL",
+   "expected_payable": 128384.0
+  },
+  "INV-009": {
+   "anomaly": "NO_PO",
+   "label": "No purchase order",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-010": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 158450.4
+  },
+  "INV-011": {
+   "anomaly": "NO_GRN",
+   "label": "No goods receipt yet",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-012": {
+   "anomaly": "DUPLICATE",
+   "label": "Duplicate invoice (re-formatted number)",
+   "expected_decision": "REJECT",
+   "expected_payable": 0.0
+  },
+  "INV-013": {
+   "anomaly": "BANK_CHANGE",
+   "label": "Bank account changed",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-014": {
+   "anomaly": "TAX_MISMATCH",
+   "label": "Wrong GST rate",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-015": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 140679.6
+  },
+  "INV-016": {
+   "anomaly": "HIGH_VALUE",
+   "label": "Clean but above approval limit",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-017": {
+   "anomaly": "QTY_OVER",
+   "label": "Billed more than received",
+   "expected_decision": "PAY_PARTIAL",
+   "expected_payable": 108088.0
+  },
+  "INV-018": {
+   "anomaly": "HIGH_VALUE",
+   "label": "Clean but above approval limit",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-019": {
+   "anomaly": "QTY_OVER",
+   "label": "Billed more than received",
+   "expected_decision": "PAY_PARTIAL",
+   "expected_payable": 44604.0
+  },
+  "INV-020": {
+   "anomaly": "MULTI_DUP_PRICE",
+   "label": "Duplicate AND price over tolerance",
+   "expected_decision": "REJECT",
+   "expected_payable": 0.0
+  },
+  "INV-021": {
+   "anomaly": "NO_PO",
+   "label": "No purchase order",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-022": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 143724.0
+  },
+  "INV-023": {
+   "anomaly": "DUPLICATE",
+   "label": "Duplicate invoice (re-formatted number)",
+   "expected_decision": "REJECT",
+   "expected_payable": 0.0
+  },
+  "INV-024": {
+   "anomaly": "TAX_MISMATCH",
+   "label": "Wrong GST rate",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-025": {
+   "anomaly": "PRICE_OVER",
+   "label": "Price above tolerance",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-026": {
+   "anomaly": "HIGH_VALUE",
+   "label": "Clean but above approval limit",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-027": {
+   "anomaly": "PRICE_OVER",
+   "label": "Price above tolerance",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-028": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 373824.0
+  },
+  "INV-029": {
+   "anomaly": "PRICE_TOL",
+   "label": "Price +1% (within tolerance)",
+   "expected_decision": "APPROVE",
+   "expected_payable": 102870.04
+  },
+  "INV-030": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 202606.0
+  },
+  "INV-031": {
+   "anomaly": "NO_PO",
+   "label": "No purchase order",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-032": {
+   "anomaly": "PRICE_TOL",
+   "label": "Price +1% (within tolerance)",
+   "expected_decision": "APPROVE",
+   "expected_payable": 142634.62
+  },
+  "INV-033": {
+   "anomaly": "NO_PO",
+   "label": "No purchase order",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-034": {
+   "anomaly": "PRICE_OVER",
+   "label": "Price above tolerance",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-035": {
+   "anomaly": "MULTI_BANK_QTY",
+   "label": "Bank change AND over-billing",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-036": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 313700.0
+  },
+  "INV-037": {
+   "anomaly": "DUPLICATE",
+   "label": "Duplicate invoice (re-formatted number)",
+   "expected_decision": "REJECT",
+   "expected_payable": 0.0
+  },
+  "INV-038": {
+   "anomaly": "ARITH_ERROR",
+   "label": "Declared total is wrong",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-039": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 163194.0
+  },
+  "INV-040": {
+   "anomaly": "TAX_MISMATCH",
+   "label": "Wrong GST rate",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-041": {
+   "anomaly": "PRICE_TOL",
+   "label": "Price +1% (within tolerance)",
+   "expected_decision": "APPROVE",
+   "expected_payable": 302627.52
+  },
+  "INV-042": {
+   "anomaly": "PRICE_OVER",
+   "label": "Price above tolerance",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-043": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 153636.0
+  },
+  "INV-044": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 333987.2
+  },
+  "INV-045": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 348100.0
+  },
+  "INV-046": {
+   "anomaly": "NO_GRN",
+   "label": "No goods receipt yet",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-047": {
+   "anomaly": "QTY_OVER",
+   "label": "Billed more than received",
+   "expected_decision": "PAY_PARTIAL",
+   "expected_payable": 62304.0
+  },
+  "INV-048": {
+   "anomaly": "ARITH_ERROR",
+   "label": "Declared total is wrong",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-049": {
+   "anomaly": "PRICE_OVER",
+   "label": "Price above tolerance",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-050": {
+   "anomaly": "NO_GRN",
+   "label": "No goods receipt yet",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-051": {
+   "anomaly": "BANK_CHANGE",
+   "label": "Bank account changed",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-052": {
+   "anomaly": "DUPLICATE",
+   "label": "Duplicate invoice (re-formatted number)",
+   "expected_decision": "REJECT",
+   "expected_payable": 0.0
+  },
+  "INV-053": {
+   "anomaly": "BANK_CHANGE",
+   "label": "Bank account changed",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-054": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 281595.2
+  },
+  "INV-055": {
+   "anomaly": "NO_GRN",
+   "label": "No goods receipt yet",
+   "expected_decision": "HOLD",
+   "expected_payable": 0.0
+  },
+  "INV-056": {
+   "anomaly": "MULTI_BANK_QTY",
+   "label": "Bank change AND over-billing",
+   "expected_decision": "ESCALATE",
+   "expected_payable": 0.0
+  },
+  "INV-057": {
+   "anomaly": "DUPLICATE",
+   "label": "Duplicate invoice (re-formatted number)",
+   "expected_decision": "REJECT",
+   "expected_payable": 0.0
+  },
+  "INV-058": {
+   "anomaly": "QTY_OVER",
+   "label": "Billed more than received",
+   "expected_decision": "PAY_PARTIAL",
+   "expected_payable": 102919.6
+  },
+  "INV-059": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 29736.0
+  },
+  "INV-060": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 126850.0
+  },
+  "INV-061": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 382744.8
+  },
+  "INV-062": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 315555.6
+  },
+  "INV-063": {
+   "anomaly": "CLEAN",
+   "label": "Clean 3-way match",
+   "expected_decision": "APPROVE",
+   "expected_payable": 64500.0
+  }
+ }
+}

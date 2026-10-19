@@ -1,0 +1,36 @@
+{
+ "summary": {
+  "cases": 63,
+  "decision_accuracy": 100.0,
+  "payable_accuracy": 100.0,
+  "critic_first_pass_pct": 100.0,
+  "auto_approved": 23,
+  "human_review": 40,
+  "avg_ms": 0.24,
+  "wrong_auto_approvals": 0
+ },
+ "baseline_auto": 53,
+ "baseline_wrong": 30,
+ "baseline_manual": 10,
+ "transient": {
+  "effective": 63,
+  "detected": 63,
+  "final_correct": 63,
+  "safe": 63,
+  "unsafe": 0,
+  "statuses": {
+   "PENDING_HUMAN_REVIEW": 40,
+   "AUTO_APPROVED_SIMULATED": 23
+  }
+ },
+ "persistent": {
+  "effective": 40,
+  "detected": 40,
+  "final_correct": 9,
+  "safe": 40,
+  "unsafe": 0,
+  "statuses": {
+   "ESCALATED_CRITIC_FAILURE": 40
+  }
+ }
+}
